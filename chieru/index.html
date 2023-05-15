@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>切噜语翻译姬 | H1's Apps</title>
+	<script src="./jquery-3.5.1.min.js"></script>
+	<script src="./gbk.js"></script>
+	<script src="./scripts.js"></script>
+	<script src="./chieru.js"></script>
+	<link rel="stylesheet" type="text/css" href="./styles.css" />
+	<link rel="icon" type="image/png" href="./imgs/chierui0.ico" />
+	<link rel="apple-touch-icon" type="image/png" href="./imgs/chierui0.ico" />
+</head>
+
+<body>
+	<div id="panel">
+		<div id="banner" class="banner">切噜语翻译姬</div>
+		<div id="info" class="info">
+			<p>切噜语翻译姬能够把一切语言翻译成切噜语 （￣︶￣）↗　</p>
+			<p>当然想要翻译回去也是可以办得到的切噜 （•̀ ω •́ ）ง✧</p>
+			<p>不要调戏人家哦 （O x O）</p>
+			<p>
+				<a href="https://github.com/H1MSK/Apps.Web/tree/master/Chieru-Translator">这里</a>竟然有个神奇的传送门？
+				（・∀・（・∀・（・∀・*）））
+			</p>
+		</div>
+		<div id="container">
+			<div id="div-origin">
+				<div class="dropdown">
+					<div id="select-encode" class="dropdown-select">UTF8</div>
+					<div id="dropdown-encode" class="dropdown-menu">
+						<a class="dropdown-item" href="#">UTF8</a>
+						<a class="dropdown-item" href="#">GBK</a>
+					</div>
+				</div>
+				<textarea id="text-original" class="textarea" placeholder="原文在这里切噜~"></textarea>
+			</div>
+
+			<div id="div-buttons" class="button-group">
+				<class id="button-to-chieru" class="button">
+					<span></span>
+				</class>
+				<class id="button-from-chieru" class="button">
+					<span></span>
+				</class>
+			</div>
+
+			<div id="div-translated">
+				<textarea id="text-translated" class="textarea" placeholder="切噜噜噜~"></textarea>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
